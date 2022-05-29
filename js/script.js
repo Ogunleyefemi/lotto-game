@@ -25,16 +25,16 @@ if (lotto == num){
     alert("congratulations you've won!");
 }
 else if (lotto < num){
-    alert("oooooppppps! try again: number is greater than" + lotto);
+    alert("oooooppppps! try again: number is greater than" +  " "  + lotto);
 }
 else if (lotto > num){
-    alert("oooooppps! try again: number is lesser than" + lotto);
+    alert("oooooppps! try again: number is lesser than" +  " "  + lotto);
 }
 else if (lotto % 2 === 0){
-    alert("ooooppppps" + lotto + "should be even");
+    alert("ooooppppps, it should be odd");
 }
 else if (lotto % 2 === 1){
-    alert("ooooppps" + lotto + "should be odd");
+    alert("ooooppps, it should be even");
 }
 else{
 
